@@ -4,14 +4,13 @@ require("firebase/firestore");
 export class Firebase {
   constructor() {
     this._config = {
-      apiKey: "AIzaSyCe3V4o9RS5T-JCwNYT9d0MoPukvjvHzGE",
-      authDomain: "wppclone-3946c.firebaseapp.com",
-      databaseURL: "https://wppclone-3946c-default-rtdb.firebaseio.com",
-      projectId: "wppclone-3946c",
-      storageBucket: "gs://wppclone-3946c.firebasestorage.app",
-      messagingSenderId: "118093865732",
-      appId: "1:118093865732:web:2697144ee8bf6618a06651",
-      measurementId: "G-XXD52GF9N0",
+      apiKey: "AIzaSyB7iIrjP011-7RjB6FTLINDtjsKqWxbRV0",
+      authDomain: "whatsapp-clone-85893.firebaseapp.com",
+      projectId: "whatsapp-clone-85893",
+      storageBucket: "whatsapp-clone-85893.firebasestorage.app",
+      messagingSenderId: "128374770993",
+      appId: "1:128374770993:web:4644e50bdeb07730a23410",
+      measurementId: "G-9R285GB1NY"
     };
 
     this.init();
